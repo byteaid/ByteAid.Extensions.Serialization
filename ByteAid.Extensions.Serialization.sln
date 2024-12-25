@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteAid.Extensions.Serialization.Abstractions", "ByteAid.Extensions.Serialization.Abstractions\ByteAid.Extensions.Serialization.Abstractions.csproj", "{B461D25A-F4AA-4040-8155-10E06E5DF3CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteAid.Extensions.Serialization", "ByteAid.Extensions.Serialization\ByteAid.Extensions.Serialization.csproj", "{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteAid.Extensions.Serialization.Tests", "ByteAid.Extensions.Serialization.Tests\ByteAid.Extensions.Serialization.Tests.csproj", "{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5DBF0E6A-7541-430F-BCE5-312A931E328E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9A134D24-B320-463E-96EE-689DC2D773D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteAid.Extensions.Serialization.SeparatedText", "ByteAid.Extensions.Serialization.SeparatedText\ByteAid.Extensions.Serialization.SeparatedText.csproj", "{B0E9B101-7759-4B65-8372-2625F5A6E989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4BEF711-D8E0-4591-8E71-A127B09B35D1}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B461D25A-F4AA-4040-8155-10E06E5DF3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B461D25A-F4AA-4040-8155-10E06E5DF3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B461D25A-F4AA-4040-8155-10E06E5DF3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B461D25A-F4AA-4040-8155-10E06E5DF3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E9B101-7759-4B65-8372-2625F5A6E989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E9B101-7759-4B65-8372-2625F5A6E989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E9B101-7759-4B65-8372-2625F5A6E989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E9B101-7759-4B65-8372-2625F5A6E989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B461D25A-F4AA-4040-8155-10E06E5DF3CF} = {5DBF0E6A-7541-430F-BCE5-312A931E328E}
+		{08849F79-F0C3-4CCF-ABB7-2DF6F5E9AEB2} = {5DBF0E6A-7541-430F-BCE5-312A931E328E}
+		{6C5BFA66-BED6-4782-B8A5-CEFEEF8C9148} = {9A134D24-B320-463E-96EE-689DC2D773D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB74B00-3BCF-47CA-B347-71A186762973}
+	EndGlobalSection
+EndGlobal

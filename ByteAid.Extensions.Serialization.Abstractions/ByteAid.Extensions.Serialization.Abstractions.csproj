@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>ByteAid.Extensions.Serialization</RootNamespace>
+
+		<!-- Package Specific -->
+		<PackageId>ByteAid.Extensions.Serialization.Abstractions</PackageId>
+		<Description>Core abstractions for ByteAid.Extensions.Serialization library providing interfaces and base classes for serialization rules and helpers.</Description>
+		<PackageTags>serialization;abstractions;byteaid</PackageTags>
+	</PropertyGroup>
+</Project>

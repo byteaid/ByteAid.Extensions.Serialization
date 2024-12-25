@@ -1,0 +1,37 @@
+<Project>
+	<PropertyGroup>
+		<!-- Common Properties -->
+		<TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		
+		<!-- Package Info -->
+		<Version>1.0.0-alpha.8</Version>
+		<Authors>ByteAid</Authors>
+		<Copyright>Copyright © ByteAid 2024</Copyright>
+		
+		<!-- Package Repository -->
+		<PackageProjectUrl>https://github.com/byteaid/ByteAid.Extensions.Serialization</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/byteaid/ByteAid.Extensions.Serialization</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<!-- Source Link -->
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Source Link -->
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Package files -->
+		<None Include="$(MSBuildThisFileDirectory)\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>

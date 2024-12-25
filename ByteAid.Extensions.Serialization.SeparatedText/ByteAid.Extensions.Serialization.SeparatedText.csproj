@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>ByteAid.Extensions.Serialization</RootNamespace>
+
+		<!-- Package Specific -->
+		<PackageId>ByteAid.Extensions.Serialization.SeparatedText</PackageId>
+		<Description>Extension for ByteAid.Extensions.Serialization providing support for CSV, TSV, and PSV (pipe-separated values) serialization with configurable separators and headers.</Description>
+		<PackageTags>serialization;csv;tsv;psv;separated-values;byteaid</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ByteAid.Extensions.Serialization\ByteAid.Extensions.Serialization.csproj" />
+	</ItemGroup>
+</Project>
